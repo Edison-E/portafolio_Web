@@ -1,0 +1,55 @@
+body {
+    background-image: url(../../img/fondo_index.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo {
+    display: grid;
+    place-items: center;
+}
+
+.nombre {
+    color: white;
+    font-size: 100px;
+    font-family: "League Spartan", sans-serif;
+}
+
+span {
+    color: #FF9D00;
+    height: 100px;
+    font-family: "League Spartan", sans-serif;
+}
+
+.titulo h2 {
+    margin-top: -20px;
+    font-family: "Anton", sans-serif;
+    color: #FF9D00;
+    font-size: 39px;
+}
+
+.titulo button {
+    font-family: "League Spartan", sans-serif;
+    background-color: #FFBD59;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px; 
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.titulo button:hover {
+    background-color: #f09102;
+}

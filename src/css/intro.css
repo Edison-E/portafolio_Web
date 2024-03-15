@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+}
+
+.contenido_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo {
+    display: grid;
+    place-items: center;
+}
+
+.nombre {
+    color: white;
+    font-size: 100px;
+    font-family: "League Spartan", sans-serif;
+}
+
+span {
+    color: #FF9D00;
+    height: 100px;
+    font-family: "League Spartan", sans-serif;
+}
+
+.titulo h2 {
+    margin-top: -20px;
+    font-family: "Anton", sans-serif;
+    color: #FF9D00;
+    font-size: 39px;
+}
+
+.barra_nav {
+    color: white;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.barra_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra_nav ul li {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.barra_nav ul li:last-child {
+    margin-right: 0;
+}
+
+.barra_nav ul li button {
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    background-color: #FFBD59;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contenido_secundario {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido_secundario h2 {
+    color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 54px;
+    text-align: center;
+}
+
+.contenido_secundario p {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    width: 400px;
+}
+
+.contenido_secundario img {
+    width: 350px;
+    margin-left: 25px;
+}
+
+#saber_mas {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.contenido_skills {
+    background-image: url(../../img/fondoSkills.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido_skills h2 {
+    padding-top: 50px;
+    color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 54px;
+    text-align: center;
+}
+
+#javascript,
+#html,
+#css,
+#java {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid #FF9D00;
+    width: 450px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#javascript h3,
+#html h3,
+#css h3,
+#java h3 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+#javascript img {
+    width: 300px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+#html img,
+#css img,
+#java img {
+    width: 150px;
+    height: 180px;
+    margin-right: 20px;
+}
