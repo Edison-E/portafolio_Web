@@ -33,42 +33,6 @@ span {
     font-size: 39px;
 }
 
-.barra_nav {
-    color: white;
-    text-align: right;
-    margin-right: 100px;
-}
-
-.barra_nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.barra_nav ul li {
-    font-family: "League Spartan", sans-serif;
-    font-size: 20px;
-    display: inline-block;
-    margin-right: 20px;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.barra_nav ul li:last-child {
-    margin-right: 0;
-}
-
-.barra_nav ul li button {
-    color: white;
-    cursor: pointer;
-    width: 100px;
-    background-color: #FFBD59;
-    border-radius: 15px 15px 15px 15px;
-    border: 1px solid transparent;
-    font-size: 20px;
-    text-align: left;
-}
-
 .contenido_secundario {
     display: flex;
     justify-content: center;
@@ -107,7 +71,7 @@ span {
 }
 
 .contenido_skills {
-    background-image: url(../../img/fondoSkills.png);
+    height: 700px;
 }
 
 .contenido_skills h2 {
@@ -171,7 +135,7 @@ span {
 #java:hover,
 #sqlPl:hover {
     transform: translateY(-5px);
-    background-color: #FFBD59;
+    background-color: #FF9D00;
     border-radius: 15px;
     border: 1px solid #ffffff;
     box-shadow: 0 4px 8px white;
@@ -209,10 +173,6 @@ span {
     font-family: "Oswald", sans-serif;
 }
 
-.contenido_proyectos {
-    padding-top: 100px;
-}
-
 .contenido_proyectos h2 {
     color: #FF9D00;
     font-family: "League Spartan", sans-serif;
@@ -236,7 +196,7 @@ span {
     margin-right: 10px;
     height: 40px;
     width: 400px;
-    padding-top: 5px;
+    padding-top: 15px;
     font-family: "League Spartan", sans-serif;
 }
 
@@ -244,4 +204,27 @@ span {
 #proyecto_dos img {
     width: 400px;
     height: 300px;
+}
+
+#proyecto_uno:hover,
+#proyecto_dos:hover {
+    box-shadow: 0 15px 15px 15px white;
+}
+
+.contacto {
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.contacto h2 {
+    color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 54px;
+    text-align: center;
+}
+
+.contacto img {
+    width: 50px;
+    height: 50px;
 }

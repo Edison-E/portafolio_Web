@@ -5,3 +5,37 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.presentacion {
+    margin-top: 150px;
+    display: grid;
+    place-content: center;
+    margin-right: 650px;
+    margin-bottom: 150px;
+}
+
+.presentacion h1 {
+    margin: 0px;
+    color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 55px;
+}
+
+.presentacion p {
+    width: 400px;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+}
+
+.competencias {
+    display: grid;
+    place-items: center;
+}
+
+.competencias h1 {
+    color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 55px;
+}

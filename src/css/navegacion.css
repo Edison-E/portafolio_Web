@@ -1,0 +1,36 @@
+
+.barra_nav {
+    color: white;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.barra_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra_nav ul li {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.barra_nav ul li:last-child {
+    margin-right: 0;
+}
+
+.barra_nav ul li button {
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    background-color: #FFBD59;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    text-align: left;
+}

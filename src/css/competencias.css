@@ -1,0 +1,21 @@
+.compUno,
+.compDos,
+.compTres,
+.compCuatro {
+    border: 1px;
+    border-radius: 200px 200px 200px 200px;
+    background-color: #FF9D00;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.compUno p,
+.compDos p,
+.compTres p,
+.compCuatro p {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+}

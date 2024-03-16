@@ -5,11 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFORMACION</title>
+    <link rel="stylesheet" type="text/css" href="../css/navegacion.css" />
     <link rel="stylesheet" type="text/css" href="../css/info.css" />
+    <link rel="stylesheet" type="text/css" href="../css/competencias.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <div id="app">
+        <navegacion></navegacion>
+    </div>
+    <script src="../components/nav.js"></script>
+    <script src="../js/redirigirPagina.js"></script>
+    <style>
+        #informacion {
+            color: #FF9D00;
+        }
+    </style>
 
+    <div class="presentacion">
+        <h1>&lt;SOY EDISON&gt;</h1>
+        <p>Acabo de terminar mi ciclo superior de desarrollo de aplicaciones web.
+            Des del primer momento me apasionó la programación y todo lo que tenga que ver con este mundo.
+            Ha sido un recorrido duro pero me encantaría aprender más y crecer con esto que tanto
+            me apasiona.
+            Estoy abierto a oportunidades laborales donde pueda contribuir, aprender y crecer.</p>
+    </div>
+
+    <div class="competencias">
+        <h1>COMPETENCIAS</h1>
+        <div id="appCompt">
+            <competencias></competencias>
+        </div>
+        <script src="../components/competencias.js"></script>
+    </div>
 </body>
 
 </html>

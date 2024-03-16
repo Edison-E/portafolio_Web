@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIENVENIDO</title>
     <link rel="stylesheet" type="text/css" href="../css/intro.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navegacion.css" />
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Shadows+Into+Light&display=swap"
@@ -16,27 +17,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&display=swap"
         rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="barra_nav">
-            <ul>
-                <li>INFORMACION</li>
-                <li>PROYECTOS</li>
-                <li>CONTACTO</li>
-                <li><button id="cambiar">☼</button></li>
-            </ul>
-        </nav>
-    </header>
-
+    <div id="app">
+        <navegacion></navegacion>
+    </div>
+    <script src="../components/nav.js"></script>
     <div class="contenido_principal">
         <div class="titulo">
             <h1 class="nombre"><span>&lt;</span> EDISON <br> CRESPO <span>&gt;</span></h1>
             <h2>DESARROLLADOR WEB</h2>
         </div>
     </div>
-
 
     <div class="contenido_secundario">
         <div>
@@ -49,7 +43,6 @@
         </div>
         <img src="../../img/sobreMiPixel.png">
     </div>
-
 
     <div class="contenido_skills">
         <h2>SKILLS</h2>
@@ -99,11 +92,20 @@
                 <p>Desarrollo de Portafolio</p>
             </div>
         </div>
-
     </div>
 
-    <script src="../js/botonNocturnoLuz.js"></script>
-    <script src="../js/botonSaberMas.js"></script>
+    <div class="contacto">
+        <h2>CONTACTA CONMIGO</h2>
+        <a id="enviar" href="mailto:enrikvc2002@gmail.com">
+            <img src="../../img/correo.png" alt="correo para enviar mensaje">
+        </a>
+    </div>
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="../js/botonNocturnoLuz.js"></script>
+<script src="../js/botonSaberMas.js"></script>
+<script src="../js/enviarMensaje.js"></script>
+<script src="../js/redirigirPagina.js"></script>
 
 </html>
