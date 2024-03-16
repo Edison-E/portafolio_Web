@@ -1,5 +1,5 @@
 body {
-   background-color: black;
+    background-color: black;
 }
 
 .contenido_principal {
@@ -207,4 +207,41 @@ span {
 #frameworks p {
     color: white;
     font-family: "Oswald", sans-serif;
+}
+
+.contenido_proyectos {
+    padding-top: 100px;
+}
+
+.contenido_proyectos h2 {
+    color: #FF9D00;
+    font-family: "League Spartan", sans-serif;
+    font-size: 54px;
+    text-align: center;
+}
+
+#proyectos {
+    display: flex;
+    margin-left: 300px;
+}
+
+#proyecto_uno {
+    margin-right: 250px;
+}
+
+#proyecto_uno p,
+#proyecto_dos p {
+    background-color: #FF9D00;
+    color: white;
+    margin-right: 10px;
+    height: 40px;
+    width: 400px;
+    padding-top: 5px;
+    font-family: "League Spartan", sans-serif;
+}
+
+#proyecto_uno img,
+#proyecto_dos img {
+    width: 400px;
+    height: 300px;
 }
