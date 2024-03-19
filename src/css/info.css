@@ -29,13 +29,15 @@ body {
     font-family: "League Spartan", sans-serif;
 }
 
-.competencias {
-    display: grid;
-    place-items: center;
-}
-
-.competencias h1 {
+#titulo{
+    text-align: center;
+    margin: 0px;
     color: #FF9D00;
     font-family: "League Spartan", sans-serif;
     font-size: 55px;
+}
+
+.competencias {
+    display: grid;
+    place-items: center;
 }

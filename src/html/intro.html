@@ -7,6 +7,7 @@
     <title>BIENVENIDO</title>
     <link rel="stylesheet" type="text/css" href="../css/intro.css" />
     <link rel="stylesheet" type="text/css" href="../css/navegacion.css" />
+    <link rel="stylesheet" type="text/css" href="../css/competencias.css" />
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Shadows+Into+Light&display=swap"
@@ -22,6 +23,7 @@
 
 <body>
     <div id="app">
+        <img id="logo" src="../../img/LogoECNegro.png" alt="Logo Edison Enrique Crespo Vasquez">
         <navegacion></navegacion>
     </div>
     <script src="../components/nav.js"></script>
@@ -35,13 +37,16 @@
     <div class="contenido_secundario">
         <div>
             <h2>SOBRE MI</h2>
-            <p>Mi nombre es Edison y soy desarrollador web de España.
-                Soy una persona incapaz de dejar las cosas para el
-                día siguiente, cuandoencuentro algo que supone
-                un reto para mí,no puedo parar hasta resolverlo.</p>
-            <button id="saber_mas">Saber mas> </button>
+            <p>Acabo de terminar mi ciclo superior de desarrollo de aplicaciones web.
+                Des del primer momento me apasionó la programación y todo lo que tenga
+                que ver con este mundo.</p>
+            <p> Ha sido un recorrido duro pero me encantaría aprender más y crecer con esto que tanto
+                me apasiona.</p>
+            <p>
+                Estoy abierto a oportunidades laborales donde pueda contribuir, aprender y crecer.
+            </p>
         </div>
-        <img src="../../img/sobreMiPixel.png">
+        <img src="../../img/portadaIntro.png">
     </div>
 
     <div class="contenido_skills">
@@ -78,6 +83,14 @@
                 <p>VUE | JQUERY</p>
             </div>
         </div>
+    </div>
+
+    <div class="competencias">
+        <h2>COMPETENCIAS</h2>
+        <div id="appCompt">
+            <competencias></competencias>
+        </div>
+        <script src="../components/competencias.js"></script>
     </div>
 
     <div class="contenido_proyectos">

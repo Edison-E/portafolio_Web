@@ -7,6 +7,7 @@ $("#cambiar").click(() => {
         $("body").css("background-color", "black");
         $(".barra_nav").css("color", "white");
         $(".nombre").css("color", "white");
+        $(".logo").attr("src", "../../img/LogoECNegro.png");
     } else if (cambio === "☼") {
         $("#cambiar").empty();
         $("#cambiar").css("text-align", "left");
@@ -39,5 +40,6 @@ $("#cambiar").click(() => {
                 $(this).css("box-shadow", "none")
             }
         );
+        $(".logo").attr("src", "../../img/LogoECBlanco.png");
     }
 });

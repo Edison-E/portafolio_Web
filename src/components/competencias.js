@@ -1,19 +1,16 @@
 const competencias = Vue.createApp({})
 
 competencias.component('competencias', {
-    template:
-        `
-    <div class="compUno">
-       <p>RESPONSABLE</p>
+   template:
+      `
+    <div class="primero">  
+     <div class="circulo_uno">RESPONSABLE</div>
+     <div class="circulo_dos">ORGANIZADO</div>
     </div>
-    <div class="compDos">
-       <p>ORGANIZADO</p>
-    </div>
-    <div class="compTres">
-       <p>TRABAJO EQUIPO</p>
-    </div>
-    <div class="compCuatro">
-       <p>ADAPTABILIDAD</p>
+  
+    <div class="segundo">
+     <div class="circulo_tres">TRABAJO EQUIPO</div>
+     <div class="circulo_cuatro">ADAPTABILIDAD</div>
     </div>
     `
 })

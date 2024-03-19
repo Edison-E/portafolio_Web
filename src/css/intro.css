@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
 .contenido_principal {
     display: flex;
     justify-content: center;
